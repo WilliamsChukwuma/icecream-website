@@ -1,0 +1,255 @@
+:root {
+    --primary-color: #1be51b;
+    --secondary-color: #e2eaec;
+    --vanilla-color: #007bff;
+    --strawberry-color: #ce1156;
+    --chocolate-color: #523b3b;
+    --yellow: yellow;
+    --orange: orange;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .first-navbar-container {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .first-navbar-container h4 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-style: oblique;
+  }
+  
+  .navbar img, .about img, footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    margin-right: 50px;
+  }
+  
+  .nav-link:hover {
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background-color: var(--chocolate-color);
+    color: var(--secondary-color);
+  } 
+  
+  #carousel-1 {
+    background: linear-gradient(135deg, var(--vanilla-color), var(--primary-color));
+    width: 100%;
+    height: 600px;
+  }
+  
+  #carousel-2 {
+    background-color: var(--strawberry-color);
+    width: 100%;
+    height: 600px;
+  }
+  
+  #carousel-3 {
+    background-color: var(--chocolate-color);
+    width: 100%;
+    height: 600px;
+  }
+  
+  .vanilla-img {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.vanilla-img img, .strawberry-img img, .chocolate-img img {
+    height: 300px;
+    width: 300px;
+}
+
+.vanilla-text, .strawberry-text, .chocolate-text {
+  margin-right: 60px;
+}
+
+.vanilla-text h1 {
+    color: var(--yellow);
+    text-align: center;
+    padding-top: 40px;
+      font-family: "Ga Maamli", sans-serif;
+      font-weight: 50%;
+      font-size: 200px;
+      font-style: normal;   
+}
+
+.vanilla-text p {
+    color: var(--yellow);
+    text-align: center;
+    padding-top: 0px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 50%;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.strawberry-img {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.strawberry-text h1 {
+  color: var(--secondary-color);
+  text-align: center;
+  padding-top: 40px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 50%;
+    font-size: 200px;
+    font-style: normal;   
+}
+
+.strawberry-text p {
+  color: var(--secondary-color);
+  text-align: center;
+  padding-top: 0px;
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 50%;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.chocolate-img {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--orange);
+  border-radius: 50%;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.chocolate-text h1 {
+  color: var(--orange);
+  text-align: center;
+  padding-top: 40px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 50%;
+    font-size: 200px;
+    font-style: normal;   
+}
+
+.chocolate-text p {
+  color: var(--orange);
+  text-align: center;
+  padding-top: 0px;
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 50%;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.about{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.about h2{
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 50px;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.contact{
+  background-color: var(--chocolate-color);
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: var(--secondary-color);
+}
+
+footer{
+  margin-top: 10px;
+  color: var(--secondary-color);
+  background-color: var(--chocolate-color);
+  text-align: center;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .vanilla-text h1, .strawberry-text h1, .chocolate-text h1 {
+      font-size: 150px;
+  }
+  .vanilla-text p, .strawberry-text p, .chocolate-text p {
+      font-size: 40px;
+  }
+  .vanilla-img img, .strawberry-img img, .chocolate-img img {
+      width: 250px;
+      height: 250px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .vanilla-text h1, .strawberry-text h1, .chocolate-text h1 {
+      font-size: 120px;
+  }
+  .vanilla-text p, .strawberry-text p, .chocolate-text p {
+      font-size: 30px;
+  }
+  .vanilla-img img, .strawberry-img img, .chocolate-img img {
+      width: 200px;
+      height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vanilla-text h1, .strawberry-text h1, .chocolate-text h1 {
+      font-size: 90px;
+  }
+  .vanilla-text p, .strawberry-text p, .chocolate-text p {
+      font-size: 25px;
+  }
+  .vanilla-img img, .strawberry-img img, .chocolate-img img {
+      width: 150px;
+      height: 150px;
+  }
+  .vanilla-img, .strawberry-img, .chocolate-img {
+      position: static;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .vanilla-text h1, .strawberry-text h1, .chocolate-text h1 {
+      font-size: 70px;
+  }
+  .vanilla-text p, .strawberry-text p, .chocolate-text p {
+      font-size: 20px;
+  }
+  .vanilla-img img, .strawberry-img img, .chocolate-img img {
+      width: 100px;
+      height: 100px;
+      text-align: center;
+  }
+}
